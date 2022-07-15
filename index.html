@@ -220,7 +220,23 @@
   </div>
   </div>
   <div class="form-group">
+    <label for="request">Request</label>
+    <textarea name="request" id="request" cols="30" rows="10"></textarea>
 
+    <h3>Payment</h3>
+    <!-- pseudo element -->
+    <p>Payment Accpted Cards</p>
+    <label for="name-card">Full Name</label>
+    <input type="text" name="name-card" id="name-card" placeholder="John Doe">
+
+    <label for="cc-number">Credit card Number</label>
+    <input type="number" name="cc-number" id="cc-number" placeholder="11111">
+
+    <div class="agree">
+      <input type="checkbox" name="agree" value="agree">
+      <label for="agree">I agree in the terms and conditions.</label>
+      <input type="submit" name="submit" value="send" id="submit">
+    </div>
   </div>
 </form>
 </div>
